@@ -3800,7 +3800,6 @@ int main(int argc, char *argv[])
       if ( !pk_script_size )
       {
          applog(LOG_ERR,"Invalid coinbase address: '%s'", coinbase_address );
-         exit(0);
       }
    }
 
